@@ -20,3 +20,6 @@ https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.9/beautify-css.js
 js-beautify is also used in Firefox
 resource://devtools/shared/jsbeautify/src/beautify-css.js
 resource://devtools/shared/jsbeautify/src/beautify-js.js
+
+### Monaco Editor
+https://github.com/microsoft/monaco-editor/tree/v0.52.2

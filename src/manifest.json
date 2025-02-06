@@ -19,7 +19,7 @@
   "background": {
     "page": "content/background.html"
   },
-
+  
   "content_scripts": [
     {
       "matches": [
