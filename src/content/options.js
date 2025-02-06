@@ -8,7 +8,7 @@ import {RemoteUpdate} from './remote-update.js';
 import {Pattern} from './pattern.js';
 import {Color} from './color.js';
 import {Nav} from './nav.js';
-import './cm-config.js';
+// import './cm-config.js';
 import './log.js';
 import './i18n.js';
 
@@ -314,6 +314,13 @@ class Script {
 
   static setCodeMirror() {
     const js = this.legend.matches('.js');
+
+    monaco.editor.create(document.getElementById('container'), {
+        value: this.box.value,
+        language: js ?'javascript': 'css'
+    });
+
+    return
     const jshint = {
         browser: true,
         curly: true,

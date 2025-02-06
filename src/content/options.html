@@ -6,6 +6,8 @@
     <title data-i18n="options">FireMonkey </title>
     <link href="../image/icon.svg" rel="icon" type="image/png">
 
+    <script defer type="module" src="../lib/monaco/generated/main.bundle.js"></script>
+
     <!-- CodeMirror -->
     <script src="../lib/codemirror/fm-codemirror.js" defer></script>
     <link rel="stylesheet" href="../lib/codemirror/codemirror.css">
@@ -350,6 +352,7 @@ height: 15em;
             <legend class="js" data-i18n="script"></legend>
             <input type="color" style="display: none;">
             <textarea class="box" spellcheck="false" autocomplete="off" disabled></textarea>
+            <div id="container" style="height: 100%"></div>
           </fieldset>
 
           <footer></footer>
